@@ -32,7 +32,7 @@ internal fun updateAppWidget(context: Context, appWidgetManager: AppWidgetManage
 
     val launchIntent = context.packageManager.getLaunchIntentForPackage("com.samsung.android.app.galaxyfinder")
     val pendingIntent = PendingIntent.getActivity(context, 0, launchIntent, PendingIntent.FLAG_IMMUTABLE)
-    views.setOnClickPendingIntent(R.id.appwidget_text, pendingIntent)
+    views.setOnClickPendingIntent(R.id.appwidget, pendingIntent)
 
     // Instruct the widget manager to update the widget
     appWidgetManager.updateAppWidget(appWidgetId, views)
