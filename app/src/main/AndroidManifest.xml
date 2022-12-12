@@ -19,7 +19,7 @@
 
             <meta-data
                     android:name="android.appwidget.provider"
-                    android:resource="@xml/finder_widget_info"/>
+                    android:resource="@xml/app_widget_info"/>
         </receiver>
     </application>
 

@@ -4,12 +4,12 @@
                     android:minHeight="40dp"
                     android:updatePeriodMillis="0"
                     android:previewImage="@drawable/example_appwidget_preview"
-                    android:initialLayout="@layout/finder_widget"
+                    android:initialLayout="@layout/app_widget"
                     android:description="@string/app_widget_description"
 
                     android:widgetCategory="home_screen"
-                    android:previewLayout="@layout/finder_widget"
+                    android:previewLayout="@layout/app_widget"
                     android:targetCellHeight="1"
                     android:targetCellWidth="1"
-                    android:initialKeyguardLayout="@layout/finder_widget"
+                    android:initialKeyguardLayout="@layout/app_widget"
 />
