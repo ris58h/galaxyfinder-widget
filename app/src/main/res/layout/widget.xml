@@ -5,12 +5,12 @@
     <TextView
             android:id="@+id/widget_textfield"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="44dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="@string/widget_text"
             android:textColor="#787878"
-            android:paddingHorizontal="16dp"
+            android:paddingHorizontal="18dp"
             android:background="@drawable/widget_textfield"
             style="@android:style/Widget.EditText">
     </TextView>
