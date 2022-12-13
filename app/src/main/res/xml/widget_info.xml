@@ -5,7 +5,7 @@
                     android:updatePeriodMillis="0"
                     android:previewImage="@drawable/example_widget_preview"
                     android:initialLayout="@layout/widget"
-                    android:description="@string/widget_description"
+                    android:description="@string/appwidget_description"
 
                     android:widgetCategory="home_screen"
                     android:previewLayout="@layout/widget"
