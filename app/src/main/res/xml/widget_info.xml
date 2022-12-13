@@ -3,13 +3,13 @@
                     android:minWidth="40dp"
                     android:minHeight="40dp"
                     android:updatePeriodMillis="0"
-                    android:previewImage="@drawable/example_appwidget_preview"
-                    android:initialLayout="@layout/app_widget"
-                    android:description="@string/app_widget_description"
+                    android:previewImage="@drawable/example_widget_preview"
+                    android:initialLayout="@layout/widget"
+                    android:description="@string/widget_description"
 
                     android:widgetCategory="home_screen"
-                    android:previewLayout="@layout/app_widget"
+                    android:previewLayout="@layout/widget"
                     android:targetCellHeight="1"
                     android:targetCellWidth="1"
-                    android:initialKeyguardLayout="@layout/app_widget"
+                    android:initialKeyguardLayout="@layout/widget"
 />

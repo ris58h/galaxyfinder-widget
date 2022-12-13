@@ -1,7 +1,0 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                style="@style/Widget.SamsungFinderWidget.AppWidget.Container"
-                android:id="@+id/appwidget"
-                android:theme="@style/Theme.SamsungFinderWidget.AppWidgetContainer"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-</RelativeLayout>
