@@ -3,12 +3,15 @@
                 android:layout_height="match_parent">
 
     <TextView
-            android:id="@+id/widget_input"
+            android:id="@+id/widget_textfield"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="42dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="@string/widget_text"
+            android:textColor="#787878"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/widget_textfield"
             style="@android:style/Widget.EditText">
     </TextView>
 </RelativeLayout>
