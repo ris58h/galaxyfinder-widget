@@ -10,6 +10,8 @@
             android:layout_centerVertical="true"
             android:text="@string/widget_text"
             android:textColor="#787878"
+            android:textFontWeight="500"
+            android:textSize="16sp"
             android:paddingHorizontal="18dp"
             android:background="@drawable/widget_textfield"
             style="@android:style/Widget.EditText">
