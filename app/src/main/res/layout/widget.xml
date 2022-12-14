@@ -1,10 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-    <TextView
-            android:id="@+id/widget_input"
-            android:text="@string/widget_text"
-            style="@style/WidgetInput">
-    </TextView>
+    <TextView android:id="@+id/widget_input" style="@style/WidgetInput"/>
 </RelativeLayout>

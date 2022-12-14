@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_height">44dip</dimen>
+    <dimen name="widget_background_radius">32dip</dimen>
+    <dimen name="widget_padding_horizontal">18dip</dimen>
+    <dimen name="widget_text_size">16sp</dimen>
+</resources>
