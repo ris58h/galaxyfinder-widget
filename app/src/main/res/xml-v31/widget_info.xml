@@ -8,4 +8,8 @@
                     android:description="@string/appwidget_description"
                     android:widgetCategory="home_screen"
                     android:initialKeyguardLayout="@layout/widget"
+
+                    android:previewLayout="@layout/widget"
+                    android:targetCellHeight="1"
+                    android:targetCellWidth="4"
 />
