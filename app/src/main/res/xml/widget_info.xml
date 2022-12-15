@@ -3,7 +3,6 @@
                     android:minWidth="40dp"
                     android:minHeight="40dp"
                     android:updatePeriodMillis="0"
-                    android:previewImage="@drawable/example_widget_preview"
                     android:initialLayout="@layout/widget"
                     android:description="@string/appwidget_description"
                     android:widgetCategory="home_screen"
