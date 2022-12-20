@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Samsung Finder Widget</string>
+    <string name="app_name">Finder Widget</string>
     <string name="appwidget_description">Widget to open Samsung Finder</string>
 
     <string name="widget_text">Search</string>

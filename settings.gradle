@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Samsung Finder Widget"
+rootProject.name = "Finder Widget"
 include ':app'
