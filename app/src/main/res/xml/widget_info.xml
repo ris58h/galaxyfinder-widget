@@ -5,7 +5,6 @@
                     android:resizeMode="horizontal"
                     android:updatePeriodMillis="0"
                     android:initialLayout="@layout/widget"
-                    android:description="@string/appwidget_description"
                     android:widgetCategory="home_screen"
                     android:initialKeyguardLayout="@layout/widget"
 />
