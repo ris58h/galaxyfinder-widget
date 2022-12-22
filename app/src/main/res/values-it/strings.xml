@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Finder Widget</string>
+    <string name="widget_text">Cerca</string>
+</resources>
