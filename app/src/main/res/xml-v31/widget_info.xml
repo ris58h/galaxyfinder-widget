@@ -6,7 +6,6 @@
                     android:updatePeriodMillis="0"
                     android:initialLayout="@layout/widget"
                     android:widgetCategory="home_screen"
-                    android:initialKeyguardLayout="@layout/widget"
 
                     android:previewLayout="@layout/widget"
                     android:targetCellHeight="1"
