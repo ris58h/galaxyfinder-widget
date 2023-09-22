@@ -18,4 +18,8 @@
         </receiver>
     </application>
 
+    <queries>
+        <package android:name="com.samsung.android.app.galaxyfinder"/>
+    </queries>
+
 </manifest>
