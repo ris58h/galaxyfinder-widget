@@ -19,12 +19,12 @@ class FinderWidget : AppWidgetProvider() {
 internal fun updateAppWidget(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int) {
     val views = RemoteViews(context.packageName, R.layout.widget)
 
-    val launchIntent: Intent =
+    val launchIntent: Intent? =
         if (Build.VERSION.SDK_INT >= 34) {
             Intent().setClassName("com.sec.android.app.launcher", "com.sec.android.app.launcher.search.SearchActivity")
         }
         else {
-            context.packageManager.getLaunchIntentForPackage("com.samsung.android.app.galaxyfinder")!!
+            context.packageManager.getLaunchIntentForPackage("com.samsung.android.app.galaxyfinder")
         }
     val pendingIntent = PendingIntent.getActivity(context, 0, launchIntent, PendingIntent.FLAG_IMMUTABLE)
     views.setOnClickPendingIntent(R.id.widget_input, pendingIntent)
