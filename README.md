@@ -3,6 +3,8 @@ Android homescreen widget to open Samsung Finder. It works only for phones with 
 
 ![Demo](demo.gif)
 
+Want to support? [Buy me a coffee](https://www.buymeacoffee.com/ris58h).
+
 ## Installation
 1. Download the [latest](https://github.com/ris58h/galaxyfinder-widget/releases/latest) `galaxyfinder-widget.apk` from [Releases](https://github.com/ris58h/galaxyfinder-widget/releases) page.
 2. Install the APK. Android will warn you about unknown source because the APK is self-signed.
